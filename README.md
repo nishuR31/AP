@@ -12,7 +12,18 @@ This Python script calculates and displays an arithmetic sequence based on user 
 - Provides error handling for invalid inputs.
 
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/nishuR31/AP)  
+<div style="display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://img.shields.io/github/repo-size/nishuR31/AP?color=blueviolet" alt="GitHub Repo Size">
+  <a href="https://github.com/sponsors/nishuR31" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Sponsor%20Me-GitHub%20Sponsors-blueviolet" alt="Sponsor Me"></a>
+  <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103&color=blueviolet" alt="Open Source Love">
+  <img src="https://img.shields.io/badge/-Follow%20Me%20-blueviolet" alt="Follow Me">  <img src="https://img.shields.io/badge/HELLO-CODERS-black" alt="Custom Badge">
+  <img src="https://img.shields.io/github/issues-pr-closed/nishuR31/AP?color=blueviolet" alt="Issue Count">
+  <img src="https://img.shields.io/github/issues/nishuR31/AP?color=blueviolet" alt="Issue Count">
+</div>
+<br>
+<br>
+
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nishuR31&repo=AP&show_owner=true&theme=midnight-purple)](https://github.com/nishuR31)
 
 
