@@ -1,29 +1,33 @@
+import colorama as c
+c.init
+
+()
 def AP():
     while True:
         try:
             while True:
                 try:
-                    a = int(input("\nEnter the starting number=> "))  # Start of the sequence
+                    a = int(input(f"\n{c.Fore.GREEN}Enter the starting number=> {c.Fore.RESET}"))  # Start of the sequence
                     break
                 except Exception as e:
-                    print(f'\nerror occured:{e}')
+                    print(f'{c.Fore.RED}\nerror occured:{e}{c.Fore.RESET}')
                     continue
             while True:
                 try:
-                    n = int(input("\nEnter the last number=> "))  # End of the sequence
+                    n = int(input(f"\n{c.Fore.GREEN}Enter the last number=> {c.Fore.RESET}"))  # End of the sequence
                     break
                 except Exception as e:
-                    print(f'\nerror occured:{e}')
+                    print(f'{c.Fore.RED}\nerror occured:{e}{c.Fore.RESET}')
                     continue
             while True:
                 try:
-                    d = int(input("\nEnter the common difference=> "))  # Common difference
+                    d = int(input(f"\n{c.Fore.GREEN}Enter the common difference=> {c.Fore.RESET}"))  # Common difference
                     if d == 0:
-                        print("\nInvalid value for common difference.")
+                        print(f"\n{c.Fore.LIGHTRED_EX}Invalid value for common difference.{c.Fore.RESET}")
                         continue
                     break
                 except Exception as e:
-                    print(f'\nerror occured:{e}')
+                    print(f'{c.Fore.RED}\nerror occured:{e}{c.Fore.RESET}')
                     continue
 
 
@@ -41,15 +45,15 @@ def AP():
                     sum += i
                     sequence.append((i))
             
-            print(f"\nSequence: {sequence}")
-            print(f"\nTotal sum = {sum}")
+            print(f"\n{c.Fore.LIGHTMAGENTA_EX}Sequence: {c.Fore.RESET}{sequence}")
+            print(f"\n{c.Fore.LIGHTMAGENTA_EX}Total sum = {c.Fore.RESET}{sum}")
 
         except ValueError:
-            print("Please enter valid integers.")
+            print(f"{c.Fore.RED}\nerror occured:{e}{c.Fore.RESET}")
         finally:
-            ask=input("Want to try again? enter [Y/y]=> ")
+            ask=input(f"{c.Fore.LIGHTBLUE_EX}Want to try again? enter [Y/y]=> {c.Fore.RESET}")
             if ask.lower()=="y":
                 continue
-            print("thank you")
+            print(f"{c.Fore.LIGHTBLUE_EX}thank you{c.Fore.RESET}")
             break
 AP()
