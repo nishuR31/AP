@@ -93,4 +93,4 @@ colorama
 For any questions or collaborations, please reach out to me at:
 
 - Email: [nishanrajak7679@gmail.com](mailto:nishanrajak7679@gmail.com)
-- GitHub: [nishur31](https://github.com/nishuR31)
+- GitHub: [nishuR31](https://github.com/nishuR31)
