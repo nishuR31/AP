@@ -51,7 +51,7 @@ if don't have pip. Then, run:
   ```bash
   python -m ensurepip
   ```
-
+then
    ```bash
    pip install -r requirements.txt
    ```
